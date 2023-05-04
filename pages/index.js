@@ -27,7 +27,6 @@ export default function Home({ allPostsData }) {
             <li className={utilStyles.listItem} key={id}>
               {/* <Link href={`/${id}`}> */}
                 <Thumbnail src={thumbnail} alt={title} />
-                <br />
                 {title}
                 {/* </Link> */}
               <br />
