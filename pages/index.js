@@ -8,9 +8,13 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  
+  // 公開されている記事だけをフィルタリングする
+  const publishedPostsData = allPostsData.filter((post) => post.published);
+
   return {
     props: {
-      allPostsData,
+      allPostsData: publishedPostsData,
     },
   };
 }
@@ -23,7 +27,7 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title ,thumbnail ,tags }) => (
+          {allPostsData.map(({ id, date, title ,thumbnail ,tags,published }) => (
             <li className={utilStyles.listItem} key={id}>
               {/* <Link href={`/${id}`}> */}
                 <Thumbnail src={thumbnail} alt={title} />
@@ -41,3 +45,4 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
+
