@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Your Name';
+const name = 'AIがWEBサイトのデザイン';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -57,6 +57,7 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        
       </header>
       <main>{children}</main>
       {!home && (
@@ -64,6 +65,9 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <footer>
+        <small>&copy;</small>
+      </footer>
     </div>
   );
 }
