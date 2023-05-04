@@ -1,5 +1,6 @@
 import Date from '../components/date';
 import Thumbnail from '../components/thumbnail';
+import Tags from '../components/tags';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import { getAllPostIds, getPostData } from '../lib/posts';
@@ -33,6 +34,7 @@ export default function Post({ postData }) {
       <article>
         <Thumbnail src={postData.thumbnail} alt={postData.title} />
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <Tags tags={postData.tags} />
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>

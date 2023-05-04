@@ -2,6 +2,10 @@
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'
 thumbnail: "/images/posts/dummy.png"
+tags:
+  - タグ1
+  - タグ2
+  - タグ3
 ---
 
 ![ダミー画像](/images/posts/dummy.png) 

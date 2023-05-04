@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Date from '../components/date';
+import Tags from '../components/tags';
 import Thumbnail from '../components/thumbnail';
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
@@ -24,9 +25,15 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title ,thumbnail }) => (
+          {allPostsData.map(({ id, date, title ,thumbnail ,tags }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/${id}`}><Thumbnail src={thumbnail} alt={title} />{title}</Link>
+              <Link href={`/${id}`}>
+                <Thumbnail src={thumbnail} alt={title} />
+                <br />
+                {title}
+                </Link>
+              <br />
+              <Tags tags={tags} />
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
