@@ -57,7 +57,6 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-        
       </header>
       <main>{children}</main>
       {!home && (
@@ -66,7 +65,7 @@ export default function Layout({ children, home }) {
         </div>
       )}
       <footer>
-        <small>&copy;</small>
+        <small>&copy; AIがWEBサイトのデザイン</small>
       </footer>
     </div>
   );
