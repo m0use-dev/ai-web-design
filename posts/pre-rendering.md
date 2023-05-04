@@ -1,6 +1,7 @@
 ---
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'
+thumbnail: "/images/posts/dummy.png"
 ---
 
 ![ダミー画像](/images/posts/dummy.png) 
