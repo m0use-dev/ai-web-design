@@ -6,14 +6,15 @@ export default function Thumbnail({ src, alt }) {
       <Image
         src={src}
         alt={alt}
-        width={200}
-        height={200}
+        width={640}
+        height={640}
+        sizes="100vw"
         priority
       />
       <style jsx>{`
         .thumbnail {
-          width: 200px;
-          height: 200px;
+          width: 640px;
+          height: auto;
           border-radius: 4px;
           overflow: hidden;
         }
