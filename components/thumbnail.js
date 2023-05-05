@@ -10,6 +10,10 @@ export default function Thumbnail({ src, alt }) {
         height={640}
         sizes="100vw"
         priority
+        style={{
+          width: '100%',
+          height: 'auto',
+        }}
       />
       <style jsx>{`
         .thumbnail {
