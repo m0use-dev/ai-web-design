@@ -8,7 +8,6 @@ export default function Thumbnail({ src, alt }) {
         alt={alt}
         width={640}
         height={640}
-        sizes="100vw"
         priority
       />
       <style jsx>{`
