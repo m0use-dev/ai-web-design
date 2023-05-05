@@ -1,10 +1,10 @@
 ---
 title: '結婚式'
 date: '2023-05-05'
-thumbnail: "/images/posts/mens-fashion001.png"
+thumbnail: "/images/posts/wedding001.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）

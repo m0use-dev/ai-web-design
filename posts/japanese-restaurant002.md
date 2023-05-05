@@ -4,7 +4,7 @@ date: '2023-05-05'
 thumbnail: "/images/posts/japanese-restaurant002.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）
