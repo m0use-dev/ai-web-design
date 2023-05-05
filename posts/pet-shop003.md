@@ -1,7 +1,7 @@
 ---
 title: 'ペットショップ'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/pet-shop003.png"
 tags:
   - midjourney
 published: false

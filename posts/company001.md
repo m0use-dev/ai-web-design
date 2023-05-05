@@ -1,7 +1,7 @@
 ---
 title: 'コーポレートサイト'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/company001.png"
 tags:
   - midjourney
 published: false

@@ -1,7 +1,7 @@
 ---
 title: 'カフェ'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/cafe004.png"
 tags:
   - midjourney
 published: false

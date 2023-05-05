@@ -1,7 +1,7 @@
 ---
 title: '自転車'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/bicycle004.png"
 tags:
   - midjourney
 published: false

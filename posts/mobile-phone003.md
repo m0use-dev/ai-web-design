@@ -1,7 +1,7 @@
 ---
 title: '携帯電話'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/mobile-phone003.png"
 tags:
   - midjourney
 published: false

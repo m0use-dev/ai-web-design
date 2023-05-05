@@ -1,7 +1,7 @@
 ---
 title: 'ホテル'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/hotel004.png"
 tags:
   - midjourney
 published: false

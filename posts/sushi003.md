@@ -1,7 +1,7 @@
 ---
 title: '寿司'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/sushi003.png"
 tags:
   - midjourney
 published: false

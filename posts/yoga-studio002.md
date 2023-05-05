@@ -1,7 +1,7 @@
 ---
 title: 'ヨガスタジオ'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/yoga-studio002.png"
 tags:
   - midjourney
 published: false

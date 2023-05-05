@@ -1,7 +1,7 @@
 ---
 title: 'パン屋'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/bakery001.png"
 tags:
   - midjourney
 published: false

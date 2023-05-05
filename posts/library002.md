@@ -1,7 +1,7 @@
 ---
 title: '図書館'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/library002.png"
 tags:
   - midjourney
 published: false

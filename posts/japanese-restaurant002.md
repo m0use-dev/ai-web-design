@@ -1,7 +1,7 @@
 ---
 title: '日本食料理屋'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/japanese-restaurant002.png"
 tags:
   - midjourney
 published: false

@@ -1,7 +1,7 @@
 ---
 title: '結婚式'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/wedding003.png"
 tags:
   - midjourney
 published: false

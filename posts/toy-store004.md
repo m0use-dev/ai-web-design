@@ -1,7 +1,7 @@
 ---
 title: 'おもちゃ屋'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/toy-store004.png"
 tags:
   - midjourney
 published: false

@@ -1,7 +1,7 @@
 ---
 title: '大学'
 date: '2023-05-05'
-thumbnail: "/images/posts/dummy.png"
+thumbnail: "/images/posts/university003.png"
 tags:
   - midjourney
 published: false
