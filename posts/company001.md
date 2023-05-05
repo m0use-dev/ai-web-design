@@ -1,10 +1,10 @@
 ---
-title: 'Dummy'
-date: '2023-01-01'
+title: 'コーポレートサイト'
+date: '2023-05-05'
 thumbnail: "/images/posts/dummy.png"
 tags:
   - midjourney
-published: true
+published: false
 ---
 
 ## 呪文（プロンプト）

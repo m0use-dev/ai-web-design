@@ -1,5 +1,5 @@
 ---
-title: 'Cafe'
+title: '化粧品'
 date: '2023-05-05'
 thumbnail: "/images/posts/dummy.png"
 tags:
