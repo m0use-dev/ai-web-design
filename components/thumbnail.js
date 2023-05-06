@@ -1,4 +1,5 @@
 import Image from "next/image";
+import main from "./css/main.module.css";
 import { useRouter } from "next/router";
 
 export default function Thumbnail({ src, alt }) {
@@ -9,22 +10,15 @@ export default function Thumbnail({ src, alt }) {
         src={`${router.basePath}${src}`}
         alt={alt}
         width={640}
-        height={640}
+        height={1000}
         sizes="100vw"
         priority
+        className={main['posts-item__thumbnail-img']}
         style={{
           width: "100%",
           height: "auto",
         }}
       />
-      <style jsx>{`
-        .thumbnail {
-          width: 640px;
-          height: auto;
-          border-radius: 4px;
-          overflow: hidden;
-        }
-      `}</style>
     </div>
   );
 }

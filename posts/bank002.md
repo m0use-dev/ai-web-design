@@ -1,7 +1,7 @@
 ---
 title: '銀行'
 date: '2023-05-05'
-thumbnail: "/images/posts/bank003.png"
+thumbnail: "/images/posts/bank002.png"
 tags:
   - midjourney
 published: true
