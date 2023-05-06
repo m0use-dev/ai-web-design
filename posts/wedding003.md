@@ -4,7 +4,7 @@ date: '2023-05-05'
 thumbnail: "/images/posts/wedding003.png"
 tags:
   - midjourney
-published: true
+published: false
 ---
 
 ## 呪文（プロンプト）
