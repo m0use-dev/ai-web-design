@@ -1,13 +1,13 @@
 ---
 title: '本屋'
-date: '2023-05-05'
+date: '2023-05-06'
 thumbnail: "/images/posts/book-store003.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）
 ```
-Beautiful landing for book store website, design, ux/ui, ux, ui --ar 3:2 --v 4 --q 2
+Beautiful landing for book store website, design, ux/ui, ux, ui --ar 3:2 --v 5 --q 2
 ```
