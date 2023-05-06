@@ -11,10 +11,15 @@ export async function getStaticProps() {
 
   // 公開されている記事だけをフィルタリングする
   const publishedPostsData = allPostsData.filter((post) => post.published);
+  // 5件のみ表示
+  const limitedPostsData = publishedPostsData.slice(0, 5);
 
   return {
     props: {
-      allPostsData: publishedPostsData,
+      // 全件表示
+      // allPostsData: publishedPostsData,
+      // 5件のみ表示
+      allPostsData: limitedPostsData,
     },
   };
 }
@@ -32,7 +37,7 @@ export default function Home({ allPostsData }) {
               <li className={utilStyles.listItem} key={id}>
                 {/* <Link href={`/${id}`}> */}
                 <Thumbnail src={thumbnail} alt={title} />
-                <p className="">{title}</p>
+                <p className={utilStyles.itemTitle}>{title}</p>
                 {/* </Link> */}
                 <br />
                 {/* <Tags tags={tags} /> */}
