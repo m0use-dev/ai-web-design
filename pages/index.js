@@ -13,13 +13,13 @@ export async function getStaticProps() {
   // 公開されている記事だけをフィルタリングする
   const publishedPostsData = allPostsData.filter((post) => post.published);
   // 5件のみ表示
-  const limitedPostsData = publishedPostsData.slice(0, 25);
+  const limitedPostsData = publishedPostsData.slice(0, 100);
 
   return {
     props: {
       // 全件表示
       // allPostsData: publishedPostsData,
-      // 5件のみ表示
+      // 100件のみ表示
       allPostsData: limitedPostsData,
     },
   };
