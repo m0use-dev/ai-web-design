@@ -13,7 +13,7 @@ export async function getStaticProps() {
   // 公開されている記事だけをフィルタリングする
   const publishedPostsData = allPostsData.filter((post) => post.published);
   // 5件のみ表示
-  const limitedPostsData = publishedPostsData.slice(0, 5);
+  const limitedPostsData = publishedPostsData.slice(0, 25);
 
   return {
     props: {
@@ -32,13 +32,13 @@ export default function Home({ allPostsData }) {
       </Head>
       <section>
         {/* <h2}>Blog</h2> */}
-        <ul>
+        <ul className={main['posts-list']}>
           {allPostsData.map(
             ({ id, date, title, thumbnail, tags, published }) => (
-              <li key={id}>
+              <li className={main['posts-item']} key={id}>
                 {/* <Link href={`/${id}`}> */}
-                <Thumbnail src={thumbnail} alt={title} />
-                <p>{title}</p>
+                <Thumbnail className={main['posts-item__thumbnail']} src={thumbnail} alt={title} />
+                <p className={main['posts-item__title']}>{title}</p>
                 {/* </Link> */}
                 <br />
                 {/* <Tags tags={tags} /> */}

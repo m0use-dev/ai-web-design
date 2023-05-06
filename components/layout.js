@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header>
+      <header className={header['header']}>
         {home ? (
           <>
             <Image
@@ -37,9 +37,10 @@ export default function Layout({ children, home }) {
               src={`${router.basePath}/images/theme/dummy.png`}
               height={144}
               width={144}
+              className={header['logo']}
               alt=""
             />
-            <h1>{name}</h1>
+            <h1 className={header['title']}>{name}</h1>
           </>
         ) : (
           <>
@@ -49,6 +50,7 @@ export default function Layout({ children, home }) {
                 src={`${router.basePath}/images/theme/dummy.png`}
                 height={108}
                 width={108}
+                className={header['logo']}
                 alt=""
               />
             </Link>
@@ -66,8 +68,8 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
-      <footer>
-        <small>&copy; AIがWEBサイトのデザイン</small>
+      <footer className={footer['footer']}>
+        <small className={footer['copyright']}>&copy; AIがWEBサイトのデザイン</small>
       </footer>
     </div>
   );
