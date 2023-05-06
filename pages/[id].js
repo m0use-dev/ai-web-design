@@ -4,8 +4,8 @@ import Tags from "../components/tags";
 import Head from "next/head";
 import Layout from "../components/layout";
 import { getAllPostIds, getPostData } from "../lib/posts";
-import main from "./css/main.module.css";
-import common from "./css/common.module.css";
+import main from "../components/css/main.module.css";
+import common from "../components/css/common.module.css";
 
 export async function getStaticProps({ params }) {
   // Add the "await" keyword like this:

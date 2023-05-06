@@ -4,8 +4,8 @@ import Tags from "../components/tags";
 import Thumbnail from "../components/thumbnail";
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import main from "./css/main.module.css";
-import common from "./css/common.module.css";
+import main from "../components/css/main.module.css";
+import common from "../components/css/common.module.css";
 import { getSortedPostsData } from "../lib/posts";
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
