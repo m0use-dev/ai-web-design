@@ -4,7 +4,8 @@ import Tags from "../components/tags";
 import Thumbnail from "../components/thumbnail";
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
+import main from "./css/main.module.css";
+import common from "./css/common.module.css";
 import { getSortedPostsData } from "../lib/posts";
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -29,19 +30,19 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
-        <ul className={utilStyles.list}>
+      <section>
+        {/* <h2}>Blog</h2> */}
+        <ul>
           {allPostsData.map(
             ({ id, date, title, thumbnail, tags, published }) => (
-              <li className={utilStyles.listItem} key={id}>
+              <li key={id}>
                 {/* <Link href={`/${id}`}> */}
                 <Thumbnail src={thumbnail} alt={title} />
-                <p className={utilStyles.itemTitle}>{title}</p>
+                <p>{title}</p>
                 {/* </Link> */}
                 <br />
                 {/* <Tags tags={tags} /> */}
-                {/* <small className={utilStyles.lightText}>
+                {/* <small>
                 <Date dateString={date} />
               </small> */}
               </li>

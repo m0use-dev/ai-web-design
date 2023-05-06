@@ -4,7 +4,8 @@ import Tags from "../components/tags";
 import Head from "next/head";
 import Layout from "../components/layout";
 import { getAllPostIds, getPostData } from "../lib/posts";
-import utilStyles from "../styles/utils.module.css";
+import main from "./css/main.module.css";
+import common from "./css/common.module.css";
 
 export async function getStaticProps({ params }) {
   // Add the "await" keyword like this:
@@ -33,9 +34,9 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <Thumbnail src={postData.thumbnail} alt={postData.title} />
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h1>{postData.title}</h1>
         <Tags tags={postData.tags} />
-        <div className={utilStyles.lightText}>
+        <div>
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

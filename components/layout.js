@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
+import header from "./css/header.module.css";
+import main from "./css/main.module.css";
+import common from "./css/common.module.css";
+import footer from "./css/footer.module.css";
 import Link from "next/link";
 
 const name = "AIデザインショーケース";
@@ -11,7 +13,7 @@ export const siteTitle = "AIデザインショーケース";
 export default function Layout({ children, home }) {
   const router = useRouter();
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -27,18 +29,17 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header>
         {home ? (
           <>
             <Image
               priority
               src={`${router.basePath}/images/theme/dummy.png`}
-              className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1>{name}</h1>
           </>
         ) : (
           <>
@@ -46,14 +47,13 @@ export default function Layout({ children, home }) {
               <Image
                 priority
                 src={`${router.basePath}/images/theme/dummy.png`}
-                className={utilStyles.borderCircle}
                 height={108}
                 width={108}
                 alt=""
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
+            <h2>
+              <Link href="/">
                 {name}
               </Link>
             </h2>
@@ -62,7 +62,7 @@ export default function Layout({ children, home }) {
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div>
           <Link href="/">← Back to home</Link>
         </div>
       )}
