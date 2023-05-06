@@ -9,7 +9,7 @@
 .posts-item {
   box-sizing: border-box;
   width: 25%;
-  padding: 10px;
+  padding: 7px;
 }
 @media (max-width: 1750px) {
   .posts-item {
