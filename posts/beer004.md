@@ -9,5 +9,5 @@ published: false
 
 ## 呪文（プロンプト）
 ```
-Beautiful landing for beer website, design, ux/ui, ux, ui --ar 3:2 --v 4 --q 2
+Beautiful landing for beer website, design, ux/ui, ux, ui --ar 9:16 --v 4 --q 2
 ```
