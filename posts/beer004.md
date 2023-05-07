@@ -1,6 +1,6 @@
 ---
 title: 'ビール'
-date: '2023-05-05'
+date: '2023-05-07'
 thumbnail: "/images/posts/beer004.png"
 tags:
   - midjourney
