@@ -18,9 +18,9 @@ export async function getStaticProps() {
   return {
     props: {
       // 全件表示
-      // allPostsData: publishedPostsData,
+      allPostsData: publishedPostsData,
       // 100件のみ表示
-      allPostsData: limitedPostsData,
+      // allPostsData: limitedPostsData,
     },
   };
 }
