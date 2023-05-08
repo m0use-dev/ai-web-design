@@ -1,13 +1,13 @@
 ---
 title: '美容院'
-date: '2023-05-05'
+date: '2023-05-08'
 thumbnail: "/images/posts/beauty-salon004.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）
 ```
-Beautiful landing for beauty-salon website, design, ux/ui, ux, ui --ar 3:2 --v 4 --q 2
+Beautiful landing for beauty-salon website, design, ux/ui, ux, ui --ar 3:2 --v 5 --q 2
 ```

@@ -4,7 +4,7 @@ date: '2023-05-07'
 thumbnail: "/images/posts/beauty-salon003.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）
