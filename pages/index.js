@@ -36,10 +36,10 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(
             ({ id, date, title, thumbnail, tags, published }) => (
               <li className={main['posts-item']} key={id}>
-                {/* <Link href={`/${id}`}> */}
+                <Link href={`/${id}`}>
                 <Thumbnail className={main['posts-item__thumbnail']} src={thumbnail} alt={title} />
                 <p className={main['posts-item__title']}>{title}</p>
-                {/* </Link> */}
+                </Link>
                 <br />
                 {/* <Tags tags={tags} /> */}
                 {/* <small>
