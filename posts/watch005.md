@@ -4,7 +4,7 @@ date: '2023-06-03'
 thumbnail: "/images/posts/watch005.png"
 tags:
   - midjourney
-published: false
+published: true
 ---
 
 ## 呪文（プロンプト）
