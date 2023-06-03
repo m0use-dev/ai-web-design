@@ -1,5 +1,5 @@
 ---
-title: 'ハンバーガー'
+title: 'ゲーム'
 date: '2023-05-06'
 thumbnail: "/images/posts/game004.png"
 tags:
