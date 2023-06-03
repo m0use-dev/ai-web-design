@@ -1,7 +1,7 @@
 ---
 title: 'スニーカー'
 date: '2023-06-03'
-thumbnail: "/images/posts/sneakers009.png"
+thumbnail: "/images/posts/sneakers011.png"
 tags:
   - midjourney
 published: true
