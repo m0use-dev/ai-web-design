@@ -1,7 +1,7 @@
 ---
 title: 'キャンプ'
 date: '2023-05-05'
-thumbnail: "/images/posts/camp001.png"
+thumbnail: "/images/posts/camp002.png"
 tags:
   - midjourney
 published: true

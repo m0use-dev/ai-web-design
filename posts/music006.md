@@ -1,7 +1,7 @@
 ---
 title: '音楽'
 date: '2023-06-04'
-thumbnail: "/images/posts/music005.png"
+thumbnail: "/images/posts/music006.png"
 tags:
   - midjourney
 published: true

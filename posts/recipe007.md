@@ -1,7 +1,7 @@
 ---
 title: 'レシピ'
 date: '2023-05-07'
-thumbnail: "/images/posts/recipe006.png"
+thumbnail: "/images/posts/recipe007.png"
 tags:
   - midjourney
 published: true
